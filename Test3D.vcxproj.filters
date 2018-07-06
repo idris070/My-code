@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Tutorial">
+      <UniqueIdentifier>{7d173012-57f5-410a-b55f-8db3f0000103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tutorial\Util">
+      <UniqueIdentifier>{c022b7e9-7f69-4c84-95f8-186d00c07007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tutorial\Mesh">
+      <UniqueIdentifier>{3aadae3f-a319-4c30-8f85-a2dad0d66866}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainTutorial.cpp">
+      <Filter>Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Math_3d.cpp">
+      <Filter>Tutorial\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipeline.cpp">
+      <Filter>Tutorial\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Tutorial\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Technique.cpp">
+      <Filter>Tutorial\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Tutorial\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="lighting_technique.cpp">
+      <Filter>Tutorial\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Tutorial\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Tutorial\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Skinned_mesh.cpp">
+      <Filter>Tutorial\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Skinning_technique.cpp">
+      <Filter>Tutorial\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="lighting.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="lighting.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="skinning.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="skinning.vs">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Math_3d.h">
+      <Filter>Tutorial\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipeline.h">
+      <Filter>Tutorial\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Tutorial\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Technique.h">
+      <Filter>Tutorial\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Tutorial\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="lighting_technique.h">
+      <Filter>Tutorial\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Tutorial\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Tutorial\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Tutorial\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Skinned_mesh.h">
+      <Filter>Tutorial\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Skinning_technique.h">
+      <Filter>Tutorial\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
